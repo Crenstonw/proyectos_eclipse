@@ -1,9 +1,0 @@
-k: load   00007ff9f0d30000 LB 0x00156000 C:\WINDOWS\System32\CRYPT32.dll [fFlags=0x0]
-1540.2a30: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume6\Windows\System32\crypt32.dll)
-1540.2a30: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume6\Windows\System32\crypt32.dll
-1540.2a30: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
-1540.2a30: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
-1540.2a30: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ff9f0e90000 'api-ms-win-core-synch-l1-2-0'
-1540.2a30: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-fibers-l1-1-1) -> 0x0, fPresent=1
-1540.2a30: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-fibers-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
-1540.2a30: supR3H
